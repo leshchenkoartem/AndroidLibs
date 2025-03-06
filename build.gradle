@@ -22,12 +22,12 @@ allprojects {
 }
 
 subprojects {
-    ext.supportLibVersion = "23.3.0"
+    ext.supportLibVersion = "27.0.0"
     ext.playServiceVersion = "8.4.0"
-    ext.androidBuildToolVersion = "23.0.3";
-    ext.androidCompileSdkVersion = 23
-    ext.androidMinSdkVersion = 16
-    ext.androidTargetSdkVersion = 23
+    ext.androidBuildToolVersion = "27.0.0";
+    ext.androidCompileSdkVersion = 33
+    ext.androidMinSdkVersion = 21
+    ext.androidTargetSdkVersion = 33
 }
 
 task clean(type: Delete) {
